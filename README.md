@@ -1,6 +1,8 @@
 # Ciammo
 
-
+- Amelie Pfänder
+- Cindy Hoppmann
+- Moritz Dallendörfer
 
 ## 1. Kurzbeschreibung
 
@@ -98,8 +100,3 @@ Mit ThreadSaveData können vier verschiedene Threads erstellt werden. Alle vier 
 ### Streams und Lambda-Funktionen Factories
 
 Für unser Projekt gab es nicht viele sinnvolle Anwendungsmöglichkeiten, um Streams einzusetzen. Wir haben jedoch trotzdem parallellaufende Streams an zwei Stellen verwendet. Zum einen zum alphabetischen Sortieren der ShoppingList und zum anderen beim Filtern nach den Ausgaben eines beliebigen Nutzers in der ExpenseList.
-
-
-
-
-
