@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="601.0" styleClass="primary-color" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.hdm_stuttgart.mi.GuiController.SettingsController">
+   <children>
+      <AnchorPane prefHeight="81.0" prefWidth="601.0" styleClass="secondary-color">
+         <children>
+            <Label fx:id="settingsLabel" layoutX="212.0" layoutY="30.0" prefHeight="37.0" prefWidth="178.0" styleClass="text-color" text="Einstellungen">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Button layoutX="15.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToUserOverview" styleClass="black-buttons" text="Zurück" textFill="#7bcca7" />
+            <Button fx:id="setNightModeButton" layoutX="477.0" layoutY="17.0" mnemonicParsing="false" onAction="#setNightMode" prefHeight="26.0" prefWidth="104.0" styleClass="black-buttons" textFill="#7bcca7" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="userSettingsButton" layoutX="231.0" layoutY="150.0" mnemonicParsing="false" onAction="#userSettings" prefHeight="50.0" prefWidth="140.0" style="-fx-border-color: #7bcca7#7bcca7; -fx-border-width: 2px 2px 2px 2px;" styleClass="rectangle-fill" text="Benutzer">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="WgSettingsButton" layoutX="231.0" layoutY="237.0" mnemonicParsing="false" onAction="#wgSettings" prefHeight="50.0" prefWidth="140.0" style="-fx-border-color: #7bcca7#7bcca7; -fx-border-width: 2px 2px 2px 2px;" styleClass="rectangle-fill" text="WG">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

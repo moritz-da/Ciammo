@@ -1,0 +1,52 @@
+{
+  "users" : [ {
+    "username" : "peter24",
+    "password" : "%Pt-1",
+    "name" : "Peter",
+    "email" : "peter@mail.com",
+    "birthdate" : "01.02.2000",
+    "wgID" : 100
+  }, {
+    "username" : "juli",
+    "password" : "%Ju-2",
+    "name" : "Julia",
+    "email" : "julia@mail.com",
+    "birthdate" : "02.04.1998",
+    "wgID" : 100
+  }, {
+    "username" : "alexxi",
+    "password" : "%Ax-3",
+    "name" : "Alex",
+    "email" : "alex@mail.com",
+    "birthdate" : "31.08.1999",
+    "wgID" : 101
+  }, {
+    "username" : "günni",
+    "password" : "%Gn-4",
+    "name" : "Günther",
+    "email" : "günni@mail.com",
+    "birthdate" : "22.03.1994",
+    "wgID" : 101
+  }, {
+    "username" : "fritz",
+    "password" : "%Fr-5",
+    "name" : "Fritz",
+    "email" : "fritz@mail.com",
+    "birthdate" : "13.02.2000",
+    "wgID" : 101
+  }, {
+    "username" : "harald",
+    "password" : "%Hr-6",
+    "name" : "Harald",
+    "email" : "harri@gmail.com",
+    "birthdate" : "22.12.1997",
+    "wgID" : 102
+  }, {
+    "username" : "HUGO",
+    "password" : "%Hu-7",
+    "name" : "Hugo",
+    "email" : "hugo@web.de",
+    "birthdate" : "06.11.2002",
+    "wgID" : 0
+  } ]
+}

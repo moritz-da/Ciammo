@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="601.0" styleClass="primary-color" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.hdm_stuttgart.mi.GuiController.UserSettingsController">
+   <children>
+      <AnchorPane prefHeight="81.0" prefWidth="601.0" styleClass="secondary-color">
+         <children>
+            <Label fx:id="userSettingsLabel" layoutX="159.0" layoutY="30.0" prefHeight="37.0" prefWidth="283.0" styleClass="text-color" text="Benutzereinstellungen">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToSettings" styleClass="black-buttons" text="Zurück" textFill="#7bcca7" />
+      <Button fx:id="saveNewMailButton" layoutX="264.0" layoutY="167.0" mnemonicParsing="false" onAction="#saveNewMail" styleClass="green-buttons" text="Speichern" />
+      <Button fx:id="saveNewPasswordButton" layoutX="264.0" layoutY="303.0" mnemonicParsing="false" onAction="#saveNewPassword" styleClass="green-buttons" text="Speichern" />
+      <TextField fx:id="newMailField" layoutX="203.0" layoutY="127.0" prefHeight="26.0" prefWidth="195.0" promptText="neue E-Mail-Adresse" style="-fx-background-color: transparent; -fx-border-color: #7bcca7; -fx-border-width: 0px 0px 2px 0px;" styleClass="text-onWhiteBlack" />
+      <PasswordField fx:id="newPasswordField" layoutX="203.0" layoutY="227.0" prefHeight="26.0" prefWidth="195.0" promptText="Neues Passwort" style="-fx-background-color: transparent; -fx-border-color: #7bcca7; -fx-border-width: 0px 0px 2px 0px;" styleClass="text-onWhiteBlack" />
+      <PasswordField fx:id="repeatNewPasswordField" layoutX="203.0" layoutY="268.0" prefHeight="26.0" prefWidth="195.0" promptText="Neues Passwort wiederholen" style="-fx-background-color: transparent; -fx-border-color: #7bcca7; -fx-border-width: 0px 0px 2px 0px;" styleClass="text-onWhiteBlack" />
+      <Button fx:id="deleteUserButton" layoutX="474.0" layoutY="360.0" mnemonicParsing="false" onAction="#deleteUser" styleClass="green-buttons" text="Benutzer löschen" />
+      <Label fx:id="errorMessageLabel3" layoutX="421.0" layoutY="250.0" prefHeight="37.0" prefWidth="139.0" styleClass="error-color" text="Passwörter stimmen nicht überein" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="errorMessageLabel2" layoutX="24.0" layoutY="204.0" prefHeight="98.0" prefWidth="160.0" styleClass="error-color" text="Das Passwort muss mind. 5 Zeichen und einen Großbuchstabe, einen Kleinbuchstabe, eine Zahl und ein Sonderzeichen (- _ # ? ! &amp; + *) enthalten!" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorMessageLabel1" layoutX="308.0" layoutY="355.0" prefHeight="37.0" prefWidth="160.0" styleClass="error-color" text="Benutzer ist noch in einer WG" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="errorMessageLabel4" layoutX="411.0" layoutY="123.0" prefHeight="37.0" prefWidth="160.0" styleClass="error-color" text="keine gültige E-Mail-Adresse" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,351 @@
+{
+  "wgs" : [ {
+    "wgName" : "Holzstr",
+    "wgPassword" : "&_WG-1",
+    "wgID" : 100,
+    "users" : [ {
+      "username" : "peter24",
+      "password" : "%Pt-1",
+      "name" : "Peter",
+      "email" : "peter@mail.com",
+      "birthdate" : "01.02.2000",
+      "wgID" : 100
+    }, {
+      "username" : "juli",
+      "password" : "%Ju-2",
+      "name" : "Julia",
+      "email" : "julia@mail.com",
+      "birthdate" : "02.04.1998",
+      "wgID" : 100
+    } ],
+    "shoppingList" : {
+      "notes" : [ "Spülmittel", "Bananen", "Putzmittel", "Bier", "Tomaten" ]
+    },
+    "expenseList" : {
+      "objects" : [ {
+        "note" : "Kartoffeln",
+        "value" : 3.6,
+        "user" : {
+          "username" : "peter24",
+          "password" : "%Pt-1",
+          "name" : "Peter",
+          "email" : "peter@mail.com",
+          "birthdate" : "01.02.2000",
+          "wgID" : 100
+        }
+      }, {
+        "note" : "Erbsen",
+        "value" : 2.79,
+        "user" : {
+          "username" : "juli",
+          "password" : "%Ju-2",
+          "name" : "Julia",
+          "email" : "julia@mail.com",
+          "birthdate" : "02.04.1998",
+          "wgID" : 100
+        }
+      }, {
+        "note" : "Müllbeutel",
+        "value" : 1.5,
+        "user" : {
+          "username" : "peter24",
+          "password" : "%Pt-1",
+          "name" : "Peter",
+          "email" : "peter@mail.com",
+          "birthdate" : "01.02.2000",
+          "wgID" : 100
+        }
+      } ]
+    },
+    "cleaningList" : {
+      "objects" : [ {
+        "note" : "Küche",
+        "value" : 27.0,
+        "user" : {
+          "username" : "peter24",
+          "password" : "%Pt-1",
+          "name" : "Peter",
+          "email" : "peter@mail.com",
+          "birthdate" : "01.02.2000",
+          "wgID" : 100
+        }
+      }, {
+        "note" : "Bad",
+        "value" : 27.0,
+        "user" : {
+          "username" : "juli",
+          "password" : "%Ju-2",
+          "name" : "Julia",
+          "email" : "julia@mail.com",
+          "birthdate" : "02.04.1998",
+          "wgID" : 100
+        }
+      }, {
+        "note" : "Küche",
+        "value" : 28.0,
+        "user" : {
+          "username" : "peter24",
+          "password" : "%Pt-1",
+          "name" : "Peter",
+          "email" : "peter@mail.com",
+          "birthdate" : "01.02.2000",
+          "wgID" : 100
+        }
+      } ]
+    }
+  }, {
+    "wgName" : "Gartenstr",
+    "wgPassword" : "&_WG-2",
+    "wgID" : 101,
+    "users" : [ {
+      "username" : "alexxi",
+      "password" : "%Ax-3",
+      "name" : "Alex",
+      "email" : "alex@mail.com",
+      "birthdate" : "31.08.1999",
+      "wgID" : 101
+    }, {
+      "username" : "günni",
+      "password" : "%Gn-4",
+      "name" : "Günther",
+      "email" : "günni@mail.com",
+      "birthdate" : "22.03.1994",
+      "wgID" : 101
+    }, {
+      "username" : "fritz",
+      "password" : "%Fr-5",
+      "name" : "Fritz",
+      "email" : "fritz@mail.com",
+      "birthdate" : "13.02.2000",
+      "wgID" : 101
+    } ],
+    "shoppingList" : {
+      "notes" : [ "Gin", "Spülmittel", "Putzmittel", "Bier", "Äpfel" ]
+    },
+    "expenseList" : {
+      "objects" : [ {
+        "note" : "Bier",
+        "value" : 12.9,
+        "user" : {
+          "username" : "alexxi",
+          "password" : "%Ax-3",
+          "name" : "Alex",
+          "email" : "alex@mail.com",
+          "birthdate" : "31.08.1999",
+          "wgID" : 101
+        }
+      }, {
+        "note" : "Tomaten",
+        "value" : 2.2,
+        "user" : {
+          "username" : "fritz",
+          "password" : "%Fr-5",
+          "name" : "Fritz",
+          "email" : "fritz@mail.com",
+          "birthdate" : "13.02.2000",
+          "wgID" : 101
+        }
+      }, {
+        "note" : "Waschmittel",
+        "value" : 7.9,
+        "user" : {
+          "username" : "günni",
+          "password" : "%Gn-4",
+          "name" : "Günther",
+          "email" : "günni@mail.com",
+          "birthdate" : "22.03.1994",
+          "wgID" : 101
+        }
+      }, {
+        "note" : "Öl",
+        "value" : 4.2,
+        "user" : {
+          "username" : "alexxi",
+          "password" : "%Ax-3",
+          "name" : "Alex",
+          "email" : "alex@mail.com",
+          "birthdate" : "31.08.1999",
+          "wgID" : 101
+        }
+      } ]
+    },
+    "cleaningList" : {
+      "objects" : [ {
+        "note" : "Flur",
+        "value" : 27.0,
+        "user" : {
+          "username" : "alexxi",
+          "password" : "%Ax-3",
+          "name" : "Alex",
+          "email" : "alex@mail.com",
+          "birthdate" : "31.08.1999",
+          "wgID" : 101
+        }
+      }, {
+        "note" : "Bad",
+        "value" : 27.0,
+        "user" : {
+          "username" : "günni",
+          "password" : "%Gn-4",
+          "name" : "Günther",
+          "email" : "günni@mail.com",
+          "birthdate" : "22.03.1994",
+          "wgID" : 101
+        }
+      }, {
+        "note" : "Küche",
+        "value" : 27.0,
+        "user" : {
+          "username" : "fritz",
+          "password" : "%Fr-5",
+          "name" : "Fritz",
+          "email" : "fritz@mail.com",
+          "birthdate" : "13.02.2000",
+          "wgID" : 101
+        }
+      }, {
+        "note" : "Flur",
+        "value" : 28.0,
+        "user" : {
+          "username" : "günni",
+          "password" : "%Gn-4",
+          "name" : "Günther",
+          "email" : "günni@mail.com",
+          "birthdate" : "22.03.1994",
+          "wgID" : 101
+        }
+      }, {
+        "note" : "Bad",
+        "value" : 28.0,
+        "user" : {
+          "username" : "fritz",
+          "password" : "%Fr-5",
+          "name" : "Fritz",
+          "email" : "fritz@mail.com",
+          "birthdate" : "13.02.2000",
+          "wgID" : 101
+        }
+      }, {
+        "note" : "Küche",
+        "value" : 28.0,
+        "user" : {
+          "username" : "alexxi",
+          "password" : "%Ax-3",
+          "name" : "Alex",
+          "email" : "alex@mail.com",
+          "birthdate" : "31.08.1999",
+          "wgID" : 101
+        }
+      }, {
+        "note" : "Flur",
+        "value" : 29.0,
+        "user" : {
+          "username" : "fritz",
+          "password" : "%Fr-5",
+          "name" : "Fritz",
+          "email" : "fritz@mail.com",
+          "birthdate" : "13.02.2000",
+          "wgID" : 101
+        }
+      }, {
+        "note" : "Bad",
+        "value" : 29.0,
+        "user" : {
+          "username" : "alexxi",
+          "password" : "%Ax-3",
+          "name" : "Alex",
+          "email" : "alex@mail.com",
+          "birthdate" : "31.08.1999",
+          "wgID" : 101
+        }
+      }, {
+        "note" : "Küche",
+        "value" : 29.0,
+        "user" : {
+          "username" : "günni",
+          "password" : "%Gn-4",
+          "name" : "Günther",
+          "email" : "günni@mail.com",
+          "birthdate" : "22.03.1994",
+          "wgID" : 101
+        }
+      } ]
+    }
+  }, {
+    "wgName" : "Hausstr",
+    "wgPassword" : "&_WG-3",
+    "wgID" : 102,
+    "users" : [ {
+      "username" : "harald",
+      "password" : "%Hr-6",
+      "name" : "Harald",
+      "email" : "harri@gmail.com",
+      "birthdate" : "22.12.1997",
+      "wgID" : 102
+    } ],
+    "shoppingList" : {
+      "notes" : [ "Trauben", "Mehl", "Bier" ]
+    },
+    "expenseList" : {
+      "objects" : [ {
+        "note" : "Tomaten",
+        "value" : 1.99,
+        "user" : {
+          "username" : "harald",
+          "password" : "%Hr-6",
+          "name" : "Harald",
+          "email" : "harri@gmail.com",
+          "birthdate" : "22.12.1997",
+          "wgID" : 102
+        }
+      }, {
+        "note" : "Brot",
+        "value" : 4.5,
+        "user" : {
+          "username" : "harald",
+          "password" : "%Hr-6",
+          "name" : "Harald",
+          "email" : "harri@gmail.com",
+          "birthdate" : "22.12.1997",
+          "wgID" : 102
+        }
+      }, {
+        "note" : "Schnittkäse",
+        "value" : 2.3,
+        "user" : {
+          "username" : "harald",
+          "password" : "%Hr-6",
+          "name" : "Harald",
+          "email" : "harri@gmail.com",
+          "birthdate" : "22.12.1997",
+          "wgID" : 102
+        }
+      } ]
+    },
+    "cleaningList" : {
+      "objects" : [ {
+        "note" : "Treppenhaus",
+        "value" : 28.0,
+        "user" : {
+          "username" : "harald",
+          "password" : "%Hr-6",
+          "name" : "Harald",
+          "email" : "harri@gmail.com",
+          "birthdate" : "22.12.1997",
+          "wgID" : 102
+        }
+      }, {
+        "note" : "Bad",
+        "value" : 29.0,
+        "user" : {
+          "username" : "harald",
+          "password" : "%Hr-6",
+          "name" : "Harald",
+          "email" : "harri@gmail.com",
+          "birthdate" : "22.12.1997",
+          "wgID" : 102
+        }
+      } ]
+    }
+  } ]
+}

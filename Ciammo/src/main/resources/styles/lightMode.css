@@ -1,0 +1,98 @@
+.primary-color {
+    -fx-background-color:#ffffff;
+}
+
+.secondary-color {
+    -fx-background-color:#7bcca7;
+}
+
+.text-color {
+    -fx-text-fill:#ffffff;
+}
+
+.text-onWhiteBlack {
+    -fx-text-fill: #121212;
+}
+
+.rectangle-fill {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+}
+
+.green-buttons {
+    -fx-background-color: #7bcca7;
+    -fx-text-fill: #ffffff;
+}
+
+.black-buttons {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #7bcca7;
+}
+
+.date-picker {
+    -fx-color: #7bcca7;
+}
+
+.spinner-color {
+    -fx-color: #7bcca7;
+    -fx-text-fill: #000000;
+    -fx-base: #ffffff;
+}
+
+.menu-item .label {
+    -fx-text-fill: #7bcca7;
+}
+
+.menu-button .label {
+    -fx-text-fill: #7bcca7;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: #7bcca7;
+    -fx-text-fill: #ffffff;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #eaeaea;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #ffffff;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #7bcca7;
+}
+
+.table-view:focused .table-row-cell:selected .table-cell {
+    -fx-text-fill: #1e2022;
+}
+
+.table-cell {
+    -fx-text-fill: #000000;
+}
+
+.list-view .list-cell:odd {
+    -fx-background-color: #eaeaea;
+}
+
+.list-view .list-cell:even {
+    -fx-background-color: #ffffff;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #7bcca7;
+    -fx-text-fill: #1e2022;
+}
+
+.list-cell {
+    -fx-text-fill: #000000;
+}
+
+.text-field {
+    -fx-text-fill: #000000;
+}
+
+.error-color {
+    -fx-text-fill: #ff8e8e;
+}

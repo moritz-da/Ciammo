@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="601.0" styleClass="primary-color" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.hdm_stuttgart.mi.GuiController.WgSettingsController">
+   <children>
+      <AnchorPane prefHeight="81.0" prefWidth="601.0" styleClass="secondary-color">
+         <children>
+            <Label fx:id="wgSettingsLabel" layoutX="184.0" layoutY="30.0" prefHeight="37.0" prefWidth="232.0" styleClass="text-color" text="WG Einstellungen">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToSettings" styleClass="black-buttons" text="Zurück" />
+      <Button fx:id="deleteWgButton" layoutX="502.0" layoutY="360.0" mnemonicParsing="false" onAction="#deleteWg" styleClass="green-buttons" text="WG löschen" />
+      <TextField fx:id="newWgNameField" layoutX="220.0" layoutY="105.0" promptText="WG-Name ändern" style="-fx-background-color: transparent; -fx-border-color: #7bcca7; -fx-border-width: 0px 0px 2px 0px;" styleClass="text-onWhiteBlack" />
+      <Button fx:id="saveNewWgNameButton" layoutX="260.0" layoutY="152.0" mnemonicParsing="false" onAction="#saveNewWgName" styleClass="green-buttons" text="Speichern" />
+      <PasswordField fx:id="newWgPasswordField" layoutX="217.0" layoutY="206.0" promptText="WG-Passwort ändern" style="-fx-background-color: transparent; -fx-border-color: #7bcca7; -fx-border-width: 0px 0px 2px 0px;" styleClass="text-onWhiteBlack" />
+      <PasswordField fx:id="repeatNewWgPasswordField" layoutX="217.0" layoutY="243.0" promptText="Passwort wiederholen" style="-fx-background-color: transparent; -fx-border-color: #7bcca7; -fx-border-width: 0px 0px 2px 0px;" styleClass="text-onWhiteBlack" />
+      <Button fx:id="saveNewWgPasswordButton" layoutX="260.0" layoutY="281.0" mnemonicParsing="false" onAction="#saveNewWgPassword" styleClass="green-buttons" text="Speichern" />
+      <Label fx:id="errorMessageLabel1" layoutX="422.0" layoutY="111.0" styleClass="error-color" text="WG-Name nicht verfügbar" />
+      <Label fx:id="errorMessageLabel3" layoutX="438.0" layoutY="226.0" prefHeight="35.0" prefWidth="113.0" styleClass="error-color" text="Passwörter stimmen nicht überein" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="errorMessageLabel2" layoutX="14.0" layoutY="194.0" prefHeight="98.0" prefWidth="160.0" styleClass="error-color" text="Das Passwort muss mind. 5 Zeichen und einen Großbuchstabe, einen Kleinbuchstabe, eine Zahl und ein Sonderzeichen (- _ # ? ! &amp; + *) enthalten!" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
